@@ -14,7 +14,7 @@ start() {
 	echo "--------------------------------"
         upstream=eth0
         phy=wlan0
-        conf=$MENUDIR/RAS-AP/ras-ap.conf
+        conf=$MENUDIR/RAS-AP/wep.conf
         hostapd=/usr/sbin/hostapd
 
         service network-manager stop
